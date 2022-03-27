@@ -14,6 +14,10 @@ const courses = [
     {
         name1: "complete C++ course",
         price: "5"
+    },  
+    {
+        name1: "complete C course",
+        price: "6"
     },
 ];
 
