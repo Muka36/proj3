@@ -42,11 +42,11 @@ function generatelist() {
         const price = document.createTextNode("$ " + course.price)
         span.appendChild(price)
 
-        li.appendChild(span)
-        ul.appendChild(li)
-    })
+        li.appendChild(span);
+        ul.appendChild(li);
+    });
 
-}
+};
 // generatelist();
 
 window.addEventListener("load", generatelist);
@@ -63,5 +63,5 @@ const button2 = document.querySelector(".sort-button")
 button2.addEventListener("click", () => {
     courses.sort((a, b) => b.price - a.price);
    generatelist();
-})
+});
  
